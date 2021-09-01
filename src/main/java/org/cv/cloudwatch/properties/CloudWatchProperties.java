@@ -24,11 +24,11 @@ public class CloudWatchProperties extends StepRegistryProperties {
 
     @Override
     public Duration getStep() {
-        return Duration.ofSeconds(30);
+        return Duration.ofSeconds(5);
     }
 
-  /*  @Override
+    @Override
     public Integer getBatchSize() {
-        return 5;
-    }*/
+        return 20;
+    }
 }
